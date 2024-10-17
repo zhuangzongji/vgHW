@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #EDF2C5;
+    line-height: 1.6; /* 提高行高以增強可讀性 */
+    font-size: 16px;  /* 設置基本字體大小 */
+    color: #333;      /* 設置文本顏色 */
+    margin-left:160px;
+    margin-right: 160px;
+    height: 100%;
+}
+
+.logo {
+    font-size: 44px;
+    font-weight: 700; /* 標題使用粗體 */
+    margin-top: 36px;
+    color: #778A50;
+    
+    
+}
+header {
+    background-color: #778A50;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-img{
+
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    border-right: 2px solid #778A50;
+    
+}
+
+.header-img-a{
+    padding: 20px;
+    
+}
+
+.header-img-a-1 img{
+    display: flex; 
+    width: 30px;
+    margin-right: 20px;
+    position: absolute;
+    top: 64px;                  /* 右上角距離頂部 10px */
+    right: 360px;
+
+}
+
+.header-img-a-2 img{
+    display: flex; 
+    width: 47px;
+    position: absolute;
+    top: 64px;                  /* 右上角距離頂部 10px */
+    right: 320px;
+    border-right: 2px solid #778A50;
+    padding-right: 15px;
+   
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+    
+    
+}
+
+nav li{
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #F7FBDA; /* 設置鏈接的字體顏色 */
+    text-decoration: none; /* 移除下底線 */
+    font-weight: 700;
+}
+
+.auth a{/* 將登錄和註冊鏈接推到右側 */
+    display:flex;      
+    color: #778A50; /* 設置鏈接的字體顏色 */
+    text-decoration: none; /* 移除下底線 */
+    border: 2px solid #778A50;
+    padding: 5px 10px; /* 添加內邊距，讓文字與框線之間保持間距 */
+    margin-left: 10px; /* 調整每個鏈接之間的距離 */
+    border-radius: 5px; /* 圓角框線，可選 */
+}
+
+.Login{
+    display: flex;
+    position: absolute;          /* 絕對定位 */
+    top: 60px;                  /* 右上角距離頂部 10px */
+    right: 230px;
+}
+
+.Join{
+    display: flex;
+    position: absolute;          /* 絕對定位 */
+    top: 60px;                  /* 右上角距離頂部 10px */
+    right: 160px;
+}
+.hero  {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+    
+.Veg-heading ,.contact-heading{
+    background-color: #778A50; /* 設定背景顏色 */
+    padding: 10px;             /* 增加內部間距，讓背景顯示得更明顯 */
+    width: 528px;
+    height: 45px;
+    border-radius: 3px;        /* 可選：讓背景邊角圓滑 */
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: #F7FBDA;               /* 調整文字顏色以提高可讀性 */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Vegetables, .contact {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 50%;
+    /* 確保兩個區塊各佔一半 */
+    box-sizing: border-box;
+    width: 528px;
+    height: 201px;
+    top: 480px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.Veg-img {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.contact-p{
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+    padding: 10px;
+    height: 140px;
+    line-height: 1.75;
+    overflow: hidden;
+    
+}
+.contact-p-1{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    font-size: 12px;
+    
+    overflow: hidden;
+}
+.contact-p-2{
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+footer {
+    
+    background-color: #7a8550;
+    color: #F7FBDA; 
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+    position: relative;
+    width: 100vw;
+    margin-left: -160px;
+}
